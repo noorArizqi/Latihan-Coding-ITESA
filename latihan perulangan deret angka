@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+ 
+int main()
+{
+ cout << "Deret Angka Ganjil dan Genap" << endl;
+ cout << "=====================================" << endl;
+ cout << endl;
+ 
+ int jumlah_deret,i;
+ 
+ cout << "Jumlah deret yang diinginkan: ";
+ cin >> jumlah_deret;
+ 
+ cout << " Angka Genap " << endl;
+ for (i=1;i<=jumlah_deret;i++) {
+   cout << i * 2 << " ";
+   cout << endl;
+ }
+ 
+ cout << " Angka Ganjil " << endl;
+ for (i=1;i<=jumlah_deret;i++) {
+   cout << (i * 2)-1 << " ";
+   cout << endl;
+ }
+ 
+ 
+ cout << endl;
+ return 0;
+}
