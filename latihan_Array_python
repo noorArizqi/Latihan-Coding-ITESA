@@ -1,0 +1,11 @@
+buah = ["jeruk","kiwi","apel","semangka","pepaya"]
+x = buah[2]
+y = len(buah)
+z = buah
+print(y) #melihat panjang array
+buah[1] = 'jambu'
+print (z) #output setelah perubahan
+buah.append('anggur')
+print(z) #output setelah penambahan anggur
+a = buah.count('jeruk')
+print(a) # output menghitung jumlah jeruk dalam arry
